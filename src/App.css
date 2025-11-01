@@ -1,0 +1,61 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css";
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Hero section */
+.hero-section {
+  height: 300px;
+  position: relative;
+  background: linear-gradient(
+    rgb(68, 35, 3),
+    rgba(19, 2, 80, 0.6),
+    rgb(41, 2, 2)
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-section .content {
+  position: relative;
+  z-index: 2;
+}
+
+/* Card Animations */
+.cards-row .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 10px;
+}
+
+.cards-row .card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Navbar */
+.navbar-brand {
+  letter-spacing: 1px;
+}
+
+.nav-link {
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #ffcc00 !important;
+}
+
+/* Footer */
+footer a:hover {
+  color: #ffcc00 !important;
+}
