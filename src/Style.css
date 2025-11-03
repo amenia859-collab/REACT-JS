@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.3s ease;
+  margin-top: 10px;
+}
+.container:hover {
+  transform: scale(0.95);
+}
+
+div h3 {
+  color: #970d6e;
+  font-weight: bold;
+}
+div h2 {
+  color: #012513;
+  font-weight: bold;
+}
+div h1 {
+  color: #201101;
+  font-weight: bold;
+}
+img .image {
+  text-align: center;
+}
